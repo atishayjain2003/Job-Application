@@ -1,0 +1,55 @@
+2026-10-04T16:46:49.443+05:30  INFO 29620 --- [FirstJob] [restartedMain] com.job.FirstJob.FirstJobApplication     : Starting FirstJobApplication using Java 17.0.12 with PID 29620 (C:\Users\atishay-j\Downloads\FirstJob (1)\FirstJob\target\classes started by atishay-j in C:\Users\atishay-j\Downloads\FirstJob (1)\FirstJob)
+2026-10-04T16:46:49.449+05:30  INFO 29620 --- [FirstJob] [restartedMain] com.job.FirstJob.FirstJobApplication     : No active profile set, falling back to 1 default profile: "default"
+2026-10-04T16:46:49.554+05:30  INFO 29620 --- [FirstJob] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-10-04T16:46:49.555+05:30  INFO 29620 --- [FirstJob] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-10-04T16:46:50.878+05:30  INFO 29620 --- [FirstJob] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-10-04T16:46:50.895+05:30  INFO 29620 --- [FirstJob] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-04T16:46:50.895+05:30  INFO 29620 --- [FirstJob] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-04T16:46:50.940+05:30  INFO 29620 --- [FirstJob] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1383 ms
+2026-10-04T16:46:51.451+05:30  INFO 29620 --- [FirstJob] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-10-04T16:46:51.460+05:30  INFO 29620 --- [FirstJob] [restartedMain] com.job.FirstJob.FirstJobApplication     : Started FirstJobApplication in 2.763 seconds (process running for 3.458)
+2026-10-04T16:47:00.059+05:30  INFO 29620 --- [FirstJob] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-10-04T16:47:00.059+05:30  INFO 29620 --- [FirstJob] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-10-04T16:47:00.062+05:30  INFO 29620 --- [FirstJob] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2026-10-04T16:47:00.100+05:30  INFO 29620 --- [FirstJob] [http-nio-8080-exec-2] com.job.FirstJob.Job.JobController       : Request received at controller to find all jobs
+2026-10-04T16:47:00.100+05:30  INFO 29620 --- [FirstJob] [http-nio-8080-exec-2] com.job.FirstJob.Job.JobService          : Request received at service to find all jobs
+2026-10-04T16:47:14.844+05:30  INFO 29620 --- [FirstJob] [http-nio-8080-exec-3] com.job.FirstJob.Job.JobController       : Request received to add a new job with details 
+2026-10-04T16:47:14.844+05:30  INFO 29620 --- [FirstJob] [http-nio-8080-exec-3] com.job.FirstJob.Job.JobService          : Request received at service to add a new job
+2026-10-04T16:47:14.844+05:30  INFO 29620 --- [FirstJob] [http-nio-8080-exec-3] com.job.FirstJob.Job.JobService          : Title: Lead Design Engineer, Description: Experience required 5-7 years, Min Salary: 100000, Max Salary: 150000, Location: Noida, Uttar Pradesh, India 
+2026-10-04T16:47:14.845+05:30  INFO 29620 --- [FirstJob] [http-nio-8080-exec-3] com.job.FirstJob.Job.JobService          : Job added successfully!
+2026-10-04T16:47:21.224+05:30  INFO 29620 --- [FirstJob] [http-nio-8080-exec-4] com.job.FirstJob.Job.JobController       : Request received to add a new job with details 
+2026-10-04T16:47:21.225+05:30  INFO 29620 --- [FirstJob] [http-nio-8080-exec-4] com.job.FirstJob.Job.JobService          : Request received at service to add a new job
+2026-10-04T16:47:21.225+05:30  INFO 29620 --- [FirstJob] [http-nio-8080-exec-4] com.job.FirstJob.Job.JobService          : Title: Lead Design Engineer, Description: Experience required 5-7 years, Min Salary: 100000, Max Salary: 150000, Location: Noida, Uttar Pradesh, India 
+2026-10-04T16:47:21.225+05:30  WARN 29620 --- [FirstJob] [http-nio-8080-exec-4] com.job.FirstJob.Job.JobService          : Id already exists
+2026-10-04T16:47:47.319+05:30  INFO 29620 --- [FirstJob] [http-nio-8080-exec-6] com.job.FirstJob.Job.JobController       : Request received to add a new job with details 
+2026-10-04T16:47:47.319+05:30  INFO 29620 --- [FirstJob] [http-nio-8080-exec-6] com.job.FirstJob.Job.JobService          : Request received at service to add a new job
+2026-10-04T16:47:47.319+05:30  INFO 29620 --- [FirstJob] [http-nio-8080-exec-6] com.job.FirstJob.Job.JobService          : Title: Engineering Manager, Description: Experience required 10+ years, Min Salary: 300000, Max Salary: 400000, Location: Noida, Uttar Pradesh, India 
+2026-10-04T16:47:47.319+05:30  INFO 29620 --- [FirstJob] [http-nio-8080-exec-6] com.job.FirstJob.Job.JobService          : Job added successfully!
+2026-10-04T16:47:49.882+05:30  INFO 29620 --- [FirstJob] [http-nio-8080-exec-7] com.job.FirstJob.Job.JobController       : Request received at controller to find all jobs
+2026-10-04T16:47:49.883+05:30  INFO 29620 --- [FirstJob] [http-nio-8080-exec-7] com.job.FirstJob.Job.JobService          : Request received at service to find all jobs
+2026-10-04T16:47:56.265+05:30  INFO 29620 --- [FirstJob] [http-nio-8080-exec-8] com.job.FirstJob.Job.JobController       : Request received at controller to find job with id 2
+2026-10-04T16:47:56.267+05:30  INFO 29620 --- [FirstJob] [http-nio-8080-exec-8] com.job.FirstJob.Job.JobService          : Request received at service to find with id 2
+2026-10-04T16:47:56.267+05:30  INFO 29620 --- [FirstJob] [http-nio-8080-exec-8] com.job.FirstJob.Job.JobService          : Job Details are Title: Engineering Manager, Description: Experience required 10+ years, Min Salary: 300000, Max Salary: 400000, Location: Noida, Uttar Pradesh, India 
+2026-10-04T16:48:00.283+05:30  INFO 29620 --- [FirstJob] [http-nio-8080-exec-9] com.job.FirstJob.Job.JobController       : Request received at controller to find job with id 4
+2026-10-04T16:48:00.283+05:30  INFO 29620 --- [FirstJob] [http-nio-8080-exec-9] com.job.FirstJob.Job.JobService          : Request received at service to find with id 4
+2026-10-04T16:48:07.123+05:30  INFO 29620 --- [FirstJob] [http-nio-8080-exec-10] com.job.FirstJob.Job.JobController       : Request received at controller to delete job with id 4
+2026-10-04T16:48:07.124+05:30  INFO 29620 --- [FirstJob] [http-nio-8080-exec-10] com.job.FirstJob.Job.JobService          : Request received at service to delete job with id 4
+2026-10-04T16:48:07.124+05:30  WARN 29620 --- [FirstJob] [http-nio-8080-exec-10] com.job.FirstJob.Job.JobService          : Job with id 4 not found
+2026-10-04T16:48:09.530+05:30  INFO 29620 --- [FirstJob] [http-nio-8080-exec-1] com.job.FirstJob.Job.JobController       : Request received at controller to delete job with id 1
+2026-10-04T16:48:09.530+05:30  INFO 29620 --- [FirstJob] [http-nio-8080-exec-1] com.job.FirstJob.Job.JobService          : Request received at service to delete job with id 1
+2026-10-04T16:48:09.530+05:30  INFO 29620 --- [FirstJob] [http-nio-8080-exec-1] com.job.FirstJob.Job.JobService          : Job removed with following details Title: Lead Design Engineer, Description: Experience required 5-7 years, Min Salary: 100000, Max Salary: 150000, Location: Noida, Uttar Pradesh, India 
+2026-10-04T16:48:12.303+05:30  INFO 29620 --- [FirstJob] [http-nio-8080-exec-2] com.job.FirstJob.Job.JobController       : Request received at controller to find all jobs
+2026-10-04T16:48:12.303+05:30  INFO 29620 --- [FirstJob] [http-nio-8080-exec-2] com.job.FirstJob.Job.JobService          : Request received at service to find all jobs
+2026-10-04T16:49:09.710+05:30  INFO 29620 --- [FirstJob] [http-nio-8080-exec-3] com.job.FirstJob.Job.JobController       : Request received at controller to update job with id 2
+2026-10-04T16:49:09.711+05:30  INFO 29620 --- [FirstJob] [http-nio-8080-exec-3] com.job.FirstJob.Job.JobService          : Request received at service to update job with id 2
+2026-10-04T16:49:09.711+05:30  INFO 29620 --- [FirstJob] [http-nio-8080-exec-3] com.job.FirstJob.Job.JobService          : Existing Job Details are Title: Engineering Manager, Description: Experience required 10+ years, Min Salary: 300000, Max Salary: 400000, Location: Noida, Uttar Pradesh, India 
+2026-10-04T16:49:09.711+05:30  INFO 29620 --- [FirstJob] [http-nio-8080-exec-3] com.job.FirstJob.Job.JobService          : Job updated successfully with following details Title: Software Design Engineer, Description: Btech/BCA, Min Salary: 50000, Max Salary: 60000, Location: Noida, Uttar Pradesh, India 
+2026-10-04T16:49:14.035+05:30  INFO 29620 --- [FirstJob] [http-nio-8080-exec-4] com.job.FirstJob.Job.JobController       : Request received at controller to update job with id 4
+2026-10-04T16:49:14.035+05:30  INFO 29620 --- [FirstJob] [http-nio-8080-exec-4] com.job.FirstJob.Job.JobService          : Request received at service to update job with id 4
+2026-10-04T16:49:14.035+05:30  WARN 29620 --- [FirstJob] [http-nio-8080-exec-4] com.job.FirstJob.Job.JobService          : Job with id 4 not found
+2026-10-04T16:49:17.207+05:30  INFO 29620 --- [FirstJob] [http-nio-8080-exec-5] com.job.FirstJob.Job.JobController       : Request received at controller to find all jobs
+2026-10-04T16:49:17.207+05:30  INFO 29620 --- [FirstJob] [http-nio-8080-exec-5] com.job.FirstJob.Job.JobService          : Request received at service to find all jobs
+2026-10-04T16:49:31.777+05:30  INFO 29620 --- [FirstJob] [http-nio-8080-exec-6] com.job.FirstJob.Job.JobController       : Request received at controller to find all jobs
+2026-10-04T16:49:31.778+05:30  INFO 29620 --- [FirstJob] [http-nio-8080-exec-6] com.job.FirstJob.Job.JobService          : Request received at service to find all jobs
+2026-10-04T16:56:17.909+05:30  INFO 29620 --- [FirstJob] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-04T16:56:19.013+05:30  INFO 29620 --- [FirstJob] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
